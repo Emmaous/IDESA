@@ -1,0 +1,11 @@
+
+body {
+  background-color: lightgrey;
+}
+.blackbox {
+    height: 14em;
+    width: 12em;
+    background-color: black;
+    position: absolute;
+    margin-left: 2.5em;
+}
