@@ -1,11 +1,38 @@
 
 body {
-  background-color: lightgrey;
+  background-color: ;
 }
 .blackbox {
     height: 14em;
     width: 12em;
     background-color: black;
     position: absolute;
-    margin-left: 2.5em;
+    margin-left: 1em;
+    z-index: -1;
 }
+.intro {
+    margin: 5vh 0 0 0;
+}
+.text {
+    color: #7E7E73;
+}
+.myborder {
+    border-style: dashed;
+    border-color: lightgray;
+}
+.info {
+    margin: 18vh 2vw 2vh;
+}
+.list-header {
+    padding-top: 1em;
+}
+span.myborder {
+    padding: 0.2em 0.5em;
+}
+h4{ 
+    margin: 4vh 0 2vh;
+}
+.padding-left {
+   padding-left: 0.5em; 
+}
+
