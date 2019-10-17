@@ -4,12 +4,13 @@ body {
     color: #7E7E73;
 }
 .blackbox {
-    height: 14em;
-    width: 12em;
+    width: 15em;
     background-color: black;
     position: absolute;
-    margin-left: 1em;
     z-index: -1;
+}
+.heigth {
+    height: 18em;
 }
 .myborder {
     border-style: dashed;
