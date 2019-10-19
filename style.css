@@ -4,7 +4,7 @@ body {
     color: #7E7E73;
 }
 .blackbox {
-    width: 15em;
+    width: 100%;
     background-color: black;
     position: absolute;
     z-index: -1;
