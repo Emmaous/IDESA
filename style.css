@@ -5,7 +5,6 @@ body {
 }
 .blackbox {
     width: 100%;
-    background-color: black;
     position: absolute;
     z-index: -1;
 }
@@ -17,7 +16,7 @@ body {
     border-color: lightgray;
 }
 .myshadow:hover {
-    box-shadow: .5rem .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: .5rem .5rem .7rem rgba(0,0,0,.15);
 }
 
 .first-quote {
@@ -41,6 +40,9 @@ body {
         font-weight: 550;
     }
     .description {
-        font-size: 1.35em;
+        font-size: 1.4em;
+    }
+    .heigth {
+        height: 25em;
     }
   }
