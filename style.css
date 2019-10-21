@@ -16,3 +16,31 @@ body {
     border-style: dashed;
     border-color: lightgray;
 }
+.myshadow:hover {
+    box-shadow: .5rem .5rem 1rem rgba(0,0,0,.15);
+}
+
+.first-quote {
+    font-size: 1.3em;
+}
+.first-subtext {
+    font-size: 1.1em;
+    font-weight: 550;
+}
+.description {
+    font-size: 1.05em;
+}
+
+
+@media (min-width: 768px){
+    .first-quote {
+        font-size: 1.7em;
+    }
+    .first-subtext {
+        font-size: 1.25em;
+        font-weight: 550;
+    }
+    .description {
+        font-size: 1.35em;
+    }
+  }
