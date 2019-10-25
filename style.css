@@ -32,19 +32,35 @@ body {
 .description {
     font-size: 1.15em;
 }
+.skills {
+    font-size: 1.5em;
+}
+.process {
+    font-size: 2em;
+}
+.requirement {
+    height: 15em;
+    display: flex;
+    justify-content: center;
+}
+.requirement_tags {
+    height: 100%;
+    width: 80%;
+}
 
 @media (max-width: 576px){
-    body {
-        background-color: white;
-    }
     .compartment {
         margin-left: 2em;
     }
     .statement {
-        font-size: 1.82em;
+        font-size: 1.92em;
+    }
+    .skills {
+        font-size: 1.4em;
     }
 }
-@media (min-width: 768px){
+
+@media (min-width: 800px){
     .first-quote {
         font-size: 1.7em;
     }
@@ -60,6 +76,15 @@ body {
     }
     .statement {
         font-size: 3em;
+    }
+    .statement_dscrp {
+        font-size: 1.2em;
+    }
+    .skills {
+        font-size: 2em;
+    }
+    .process {
+        font-size: 2.5em;
     }
   }
 
