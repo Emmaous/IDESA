@@ -39,13 +39,16 @@ body {
     font-size: 2em;
 }
 .requirement {
-    height: 15em;
+    height: 13em;
     display: flex;
     justify-content: center;
 }
 .requirement_tags {
     height: 100%;
-    width: 80%;
+    width: 14em;
+}
+.base {
+    height: 50vw;
 }
 
 @media (max-width: 576px){
@@ -57,6 +60,12 @@ body {
     }
     .skills {
         font-size: 1.4em;
+    }
+    .requirement {
+        height: 13em;
+    }
+    .requirement_tags {
+        width: 17em;
     }
 }
 
@@ -85,6 +94,23 @@ body {
     }
     .process {
         font-size: 2.5em;
+    }
+    .requirement {
+        height: 12.5em;
+    }
+    .requirement_tags {
+        width: 16em;
+    }
+    .right {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .left {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .base {
+        height: 25vw;
     }
   }
 
