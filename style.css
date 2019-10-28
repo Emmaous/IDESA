@@ -50,6 +50,13 @@ body {
 .base {
     height: 50vw;
 }
+.quote-right {
+    font-size: 1.5em;
+}
+.second-quote {
+    font-weight: 500;
+    opacity: 0.8;
+}
 
 @media (max-width: 576px){
     .compartment {
@@ -111,6 +118,9 @@ body {
     }
     .base {
         height: 25vw;
+    }
+    .quote-right {
+        font-size: 2em;
     }
   }
 
